@@ -504,3 +504,44 @@
 		z-index: 99;
 	}
 }
+
+
+/**
+ * Cart page.
+ */
+.woocommerce-cart {
+	.wp-block-separator {
+		color: #363636;
+	}
+
+	.wp-block-post-title {
+		margin-bottom: 4rem !important;
+	}
+
+	.woocommerce {
+		margin-left: auto !important;
+		max-width: 1000px;
+		margin-top: -20px;
+	}
+
+	.cart-empty {
+		background: #F6F6F6;
+		padding: 20px;
+		border-top: solid 3px black;
+	}
+
+	.button {
+		border: solid 2px var(--wp--preset--color--primary);
+
+		&:not(:hover) {
+			color: var(--wp--preset--color--primary) !important;
+			background: none;
+		}
+
+		&:hover {
+			color: unset;
+			background: var(--wp--preset--color--primary) !important;;
+			text-decoration: none !important;
+		}
+	}
+}
