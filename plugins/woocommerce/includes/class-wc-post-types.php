@@ -12,6 +12,7 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Post types Class.
+ * (Marked)
  */
 class WC_Post_Types {
 
